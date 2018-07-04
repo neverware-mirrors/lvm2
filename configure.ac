@@ -598,7 +598,7 @@ AC_MSG_CHECKING(whether to include vdo)
 AC_ARG_WITH(vdo,
 	    AC_HELP_STRING([--with-vdo=TYPE],
 			   [vdo support: internal/none [internal]]),
-			   VDO=$withval, VDO="none")
+			   VDO=$withval, VDO="internal")
 
 AC_MSG_RESULT($VDO)
 

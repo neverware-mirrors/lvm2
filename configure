@@ -9561,7 +9561,7 @@ $as_echo_n "checking whether to include vdo... " >&6; }
 if test "${with_vdo+set}" = set; then :
   withval=$with_vdo; VDO=$withval
 else
-  VDO="none"
+  VDO="internal"
 fi
 
 
