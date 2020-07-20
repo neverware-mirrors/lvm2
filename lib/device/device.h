@@ -72,6 +72,7 @@ struct device {
 	int read_ahead;
 	int bcache_fd;
 	uint32_t flags;
+	uint32_t filtered_flags;
 	unsigned size_seqno;
 	uint64_t size;
 	uint64_t end;
